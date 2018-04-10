@@ -1,3 +1,2 @@
-[user]
-	email = tim@cousins.io
-	name = Tim Cousins
+[include]
+	path = ~/.gitconfig.local

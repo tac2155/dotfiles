@@ -1,6 +1,21 @@
 [alias]
-	co = checkout
-	cob = checkout -b
+		co = checkout
+		cob = checkout -b
+		l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
 [include]
-	path = ~/.gitconfig.personal
+		path = ~/.gitconfig.personal
+
+[apply]
+		# Detect whitespace errors when applying a patch
+		whitespace = fix
+
+[core]
+		#Git Ignore
+		excludesfile = ~/.gitignore
+
+[push]
+	# https://git-scm.com/docs/git-config#git-config-pushdefault
+	default = simple
+	# Make `git push` push relevant annotated tags when pushing branches out.
+	followTags = true

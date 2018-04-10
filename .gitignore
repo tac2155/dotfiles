@@ -1,0 +1,49 @@
+# System files
+*.DS_Store
+
+#####
+# R
+#####
+
+# History Files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# Example code in package build
+*-Ex.R
+
+# Output files from R CMD Build
+/*.tar.gz
+
+#Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 Token
+.httr-oauth
+
+# knitr and R markdown default cache dirs
+/*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# Output data
+*.Rda
+*.pdf
+*.csv
+*.html
+
+# Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
+rsconnect/

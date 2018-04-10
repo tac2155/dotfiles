@@ -14,4 +14,10 @@ alias ll='ls -GlpAh'
 
 alias updateMac='sudo sh -c "softwareupdate -ia && reboot"'
 
+# Git
+alias status='git status'
+
+########
+# Prompt
+########
 . ~/.bash_prompt

@@ -1,2 +1,6 @@
+[alias]
+	co = checkout
+	cob = checkout -b
+
 [include]
 	path = ~/.gitconfig.personal

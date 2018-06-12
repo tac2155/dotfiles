@@ -8,6 +8,8 @@ eval $(thefuck --alias)
 # Alias
 ########
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor;'
+alias caskup='brew cask upgrade; brew cask cleanup; brew cask doctor'
+alias caskshow='brew cask list; brew cask outdated'
 
 alias ls='ls -Glph'
 alias ll='ls -GlpAh'
